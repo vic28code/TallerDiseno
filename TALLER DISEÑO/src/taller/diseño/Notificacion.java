@@ -1,6 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
 package taller.diseño;
 
@@ -8,15 +8,6 @@ package taller.diseño;
  *
  * @author CltControl
  */
-public class Notificacion {
-    private int tipoNotificacion;
-    public void notificar(Pago pago){
-        if(tipoNotificacion==1){
-            //enviarEmail();
-        }
-        else{
-            //enviarSMS();
-        }
-    }
+public interface Notificacion {
     
 }
